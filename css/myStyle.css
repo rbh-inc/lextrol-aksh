@@ -1,6 +1,14 @@
 .comp-logo-nav{
     width: 50px;
 }
+.comp-logo-preload{
+    width: 100px;
+}
+
+.comp-logo-nav-name{
+	height: 50px;
+	margin-top:12px;
+}
 
 .float{
 	position:fixed;
