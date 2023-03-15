@@ -1,14 +1,6 @@
 .comp-logo-nav{
     width: 50px;
 }
-.comp-logo-preload{
-    width: 100px;
-}
-
-.comp-logo-nav-name{
-	height: 50px;
-	margin-top:12px;
-}
 
 .float{
 	position:fixed;
@@ -34,3 +26,22 @@
 	color: white !important;
 }
 
+.comp-logo-preload{
+    width: 100px;
+}
+
+.comp-logo-nav-name{
+	height: 50px;
+	margin-top:12px;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.comp-logo-nav{
+		width: 40px;
+	}
+	.comp-logo-nav-name{
+		height: 35px;
+		margin-top:12px;
+	}
+  }
